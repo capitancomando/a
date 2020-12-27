@@ -25,31 +25,31 @@ case $chosen in
             cd Central-Nahfer
             cd a
             mv .red .dialogrc
-            mv .dialogrc /$HOME
+            cp .dialogrc /$HOME
             
         elif [[ $menuitem == 2 ]]; then
             cd Central-Nahfer
             cd a
             mv .green .dialogrc
-            mv .dialogrc /$HOME
+            cp .dialogrc /$HOME
             
         elif [[ $menuitem == 3 ]]; then
             echo cd Central-Nahfer
             cd a
             mv .amarillo .dialogrc
-            mv .dialogrc /$HOME
+            cp .dialogrc /$HOME
             
         elif [[ $menuitem == 4 ]]; then
             echo cd Central-Nahfer
             cd a
             mv .blue .dialogrc
-            mv .dialogrc /$HOME
+            cp .dialogrc /$HOME
             
         elif [[ $menuitem == 5 ]]; then
             cd Central-Nahfer
             cd a
             mv .cyan .dialogrc
-            mv .dialogrc /$HOME
+            cp .dialogrc /$HOME
         else
             echo "exit"
             exit 0
